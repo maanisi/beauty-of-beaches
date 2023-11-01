@@ -1,0 +1,57 @@
+
+.share .share-link {
+    outline: 0;
+    font-size: 0;
+}
+.share .share-link {
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color:#237568;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0,0,0,.65);
+    border-radius: 50%;
+}
+.share-link-facebook {
+    background: #02644c;
+}
+.share-link {
+    display: block;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+li {
+    text-align: -webkit-match-parent;
+}
+ul {
+    list-style: none;
+}
+user agent stylesheet
+ul {
+    list-style-type: disc;
+}
+body {
+    font-family: Roboto,Tahoma,sans-serif;
+    background: #237568;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    -webkit-text-size-adjust: 100%;
+    color: rgba(0,0,0,.95);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: url(https://thepointsguy.global.ssl.fastly.net/us/originals/2022/07/GettyImages-1336607101.jpg);
+    background-size: cover;
+}
+style attribute {
+    --scrollbar-width: 17px;
+}
